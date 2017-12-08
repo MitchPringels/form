@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>1718_IT3_PringelsM_opdracht_week_10</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mediaQuerry.css">
+</head>
+
+  <body>
+    <div id="login-button">
+      <img src="https://dqcgrsy5v35b9.cloudfront.net/cruiseplanner/assets/img/icons/login-w-icon.png">
+      <!-- of deze <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Simpleicons_Interface_user-male-outline.svg">-->
+    </div>
+
+      <div id="shownow">
+        <h1>SIGN IN</h1>
+        <span id="close" class="close-btn">
+          <img src="https://cdn4.iconfinder.com/data/icons/miu/22/circle_close_delete_-128.png">
+        </span>
+
+          <form>
+            <label class="naamKeuze" for="naam">Choose your ingame name:</label>
+              <select>
+                <option value="name">-</option>
+                <option value="name">Lowri Shun Lim</option>
+                <option value="name">Paul Gormflaith Wesley</option>
+                <option value="name">Hudde Ayla Glen</option>
+                <option value="name">Leif Manish Antuma</option>
+                <option value="name">Mitch Pringels</option>
+                <option value="name">Dip Kazuko Van Altena</option>
+                <option value="name">Jolanda Timon Ramakers</option>
+                <option value="name">Isabelle Paulien Schneijder</option>
+                <option value="name">Quirijn Paulis</option>
+                <option value="name">Sten Pender</option>
+                <option value="name">Floor Tillens</option>
+                <option value="name">Joos De Veen</option>
+                <option value="name">Paulien Dirksen</option>
+              </select>
+
+            <label class="schoolKeuze" for="school">Which school suits you best:</label>
+              <select name="school">
+               <option value="empty">-</option>
+                <option value="balance">BALANCE</option>
+                <option value="storm">STORM</option>
+                <option value="death">DEATH</option>
+                <option value="myth">MYTH</option>
+                <option value="fire">FIRE</option>
+                <option value="ice">ICE</option>
+              </select>
+
+            <label  for="datum">Birthday:</label>
+            <input id="verjaardag" type="date">
+
+            <input placeholder="Username:" type="text" id="naam" name="naam">
+
+            <input id="nextButton" value="Next">
+        </div>
+
+        <div id="nextKlik">
+          <h1>SIGN IN</h1>
+          <span id="close2" class="close-btn">
+            <img src="https://cdn4.iconfinder.com/data/icons/miu/22/circle_close_delete_-128.png">
+          </span>
+          <span id="back">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Circle_arrow_right_font_awesome.svg/1024px-Circle_arrow_right_font_awesome.svg.png">
+          </span>
+          <input type="email" name="email" placeholder="E-mail:">
+          <input type="password" name="pass" placeholder="Password:">
+          <input type="password" name="pass" placeholder="Confirm Password:">
+
+          <input class="inloggen" type="submit" name="inloggen" value="Sign in">
+
+          <div id="remember-container">
+            <input type="checkbox" class="checkbox" checked>
+            <span class="newsletter">Newsletter</span>
+          </div>
+        </div>
+
+      </form>
+
+      <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+      <script  src="js/index.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,68 @@
+@media (min-width:700px) {
+  #nextKlik, #shownow{
+    width: 32em;
+    height: 52em;
+  }
+}
+@media (min-width:1025px){
+  #login-button{
+    width: 6.25em;
+    height: 6.25em;
+  }
+  /* ---- Inlogformulier ---- */
+  #nextKlik, #shownow{
+    width: 16em;
+    height: 27em;
+  }
+  .close-btn{
+    width: 1em;
+    height: 1em;
+  }
+  .close-btn:hover{
+    opacity: 0.6;
+  }
+  h1{
+    font-size: 2.5em;
+  }
+  label{
+    width: 80%;
+    font-size: 0.9em;
+  }
+  select{
+    width: 80%;
+    font-size: 1em;
+    padding: 0.5em;
+  }
+  #nextButton{
+    font-size: 1em;
+  }
+  .inloggen, input{
+    width: 80%;
+    font-size: 1em;
+  }
+  .inloggen{
+    padding: 0.25em 1em;
+    margin-top:1em;
+  }
+  .inloggen:hover{
+    background: rgba(254, 163, 108,0.4);
+    opacity: 0.7;
+  }
+  #remember-container{
+    margin: -0.5em 1.25em;
+  }
+  .checkbox:checked:after{
+  	font-size: 0.625em;
+  }
+  #back{
+    width: 1.5em;
+    height: 1.5em;
+  }
+  #back:hover{
+    opacity: 0.8;
+  }
+  .newsletter{
+    margin-top:-0.5em;
+    font-size:0.8em;
+  }
+}
